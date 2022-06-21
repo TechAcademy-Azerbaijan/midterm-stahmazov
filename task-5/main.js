@@ -15,7 +15,7 @@ prompt.get('input', function (err, result) {
     let n2 = parseInt(numbers[1]);
 
     let sum = 0
-    for (n1; n1 < n2; n1++){
+    for (n1; n1 <= n2; n1++){
         if (n1 % 2 != 0) {
             sum+=n1
         }
